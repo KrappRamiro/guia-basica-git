@@ -3,14 +3,15 @@
 - [Git](#git)
 	- [¿Qué es Git 🤔?](#qué-es-git-)
 	- [¿Por qué usar Git 🤷?](#por-qué-usar-git-)
-	- [¿Puedo evitar Git?](#puedo-evitar-git)
-	- [Cheatsheet de Git](#cheatsheet-de-git)
-	- [Conceptos claves de Git](#conceptos-claves-de-git)
+	- [¿Puedo evitar Git? 🛑](#puedo-evitar-git-)
+	- [Cheatsheet de Git 📰](#cheatsheet-de-git-)
+	- [Conceptos claves de Git 📖](#conceptos-claves-de-git-)
 		- [Commit](#commit)
 	- [Mi primer proyecto en git 😇](#mi-primer-proyecto-en-git-)
-		- [Los archivos en Git](#los-archivos-en-git)
-		- [Mi primer commit](#mi-primer-commit)
-		- [Repositorios remotos y Github](#repositorios-remotos-y-github)
+		- [Los archivos en Git 📂](#los-archivos-en-git-)
+		- [Mi primer commit ➡️](#mi-primer-commit-️)
+		- [Repositorios remotos y Github 🐙](#repositorios-remotos-y-github-)
+			- [⚠️ LEE ESTO, TE VA A SALVAR DOLORES DE CABEZA](#️-lee-esto-te-va-a-salvar-dolores-de-cabeza)
 	- [Guía de instalación](#guía-de-instalación)
 
 Esta guía está hecha para que sea un paseo leerla, la idea no es que sea un manual técnico, sino que sigas **paso a paso**. Esta pensada para gente que recien empieza con git, y quiere entender, dentro de todo, qué es lo que está haciendo.
@@ -41,13 +42,13 @@ Hay varias razones:
 5. 🏦 | Te permite ver que fué cambiando en tu código a lo largo del tiempo.
 6. 🧑‍🤝‍🧑 | Hace que colaborar con otras personas sea **viable**.
 
-## ¿Puedo evitar Git?
+## ¿Puedo evitar Git? 🛑
 
 No.
 
 Ni lo intentes.
 
-## Cheatsheet de Git
+## Cheatsheet de Git 📰
 
 En Git, nosotros:
 
@@ -134,7 +135,7 @@ git pull origin <nombre_de_rama>
 git merge <nombre_de_otra_rama>
 ```
 
-## Conceptos claves de Git
+## Conceptos claves de Git 📖
 
 ### Commit
 
@@ -202,7 +203,7 @@ Una vez que tenés Git instalado, podés **crear tu primer repositorio**:
    git init
    ```
 
-### Los archivos en Git
+### Los archivos en Git 📂
 
 La realidad es que git, cuando inicias el repositorio por primera vez, **no tiene ni idea de qué querés hacer con tus archivos**.
 _Eso se lo vas a tener que indicar vos._
@@ -276,7 +277,7 @@ Untracked files:
 
 Ahora podemos ver que index.html salió de Untracked, y esta en una nueva sección llamada **Changes to be committed**. Esto significa que este archivo va a estar incluido en nuestro próximo **commit** (o versión).
 
-### Mi primer commit
+### Mi primer commit ➡️
 
 Ahora vamos a hacer nuestro primer commit. [Qué es un commit?](#commit) Un commit es una versión de tu código, es como **una imagen de como era tu proyecto en un punto específico del tiempo**.
 
@@ -336,11 +337,22 @@ Date:   Tue Jul 4 11:51:19 2023 -0300
     Añadir version inicial de index.html
 ```
 
-### Repositorios remotos y Github
+### Repositorios remotos y Github 🐙
 
 Este repositorio que hicimos esta guardado localmente en nuestra computadora, pero qué pasa si queremos colaborar con otras personas? Para eso usamos una **plataforma de repositorios remotos**.
 Hay un montón, está bitbucket, gitlab, gitkraken, etc... Pero la más conocida es **Github**. Github te permite "subir" (entre muchas **MUCHISIMAS** comillas)
 tus repositorios a internet, permitiendo que otras personas lo vean y colaboren en un mismo proyecto.
+
+Para hacer esto, ya hay guías en internet.
+
+#### ⚠️ LEE ESTO, TE VA A SALVAR DOLORES DE CABEZA
+
+Cuando quieras subir tu repositorio local (en tu PC) a uno remoto, tenés que tener en cuenta lo siguiente **SI o SI**
+
+- El repositorio local ya tiene que haber tenido su primer commit
+- El repositorio remoto tiene que estar completamente vacío, se tiene que ver así
+
+  ![repositorio vacio](img/repo_vacio.png)
 
 ## Guía de instalación
 
