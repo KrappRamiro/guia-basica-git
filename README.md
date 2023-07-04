@@ -22,6 +22,7 @@
 	- [Guía de instalación](#guía-de-instalación)
 		- [Windows](#windows)
 		- [Linux](#linux)
+		- [Configuracion Inicial](#configuracion-inicial)
 
 Esta guía está hecha para que sea un paseo leerla, la idea no es que sea un manual técnico, sino que sigas **paso a paso**. Esta pensada para gente que recien empieza con git, y quiere entender, dentro de todo, qué es lo que está haciendo.
 
@@ -544,8 +545,29 @@ Verifica que la instalación se haya hecho correctamente usando el comando: `git
 
 Si no estas usando una distribución basada en Debian, [usa el package manager de tu distribución en vez de apt](https://git-scm.com/download/linux).
 
+### Configuracion Inicial
+
+Cuando instalas git por primera vez, tenés que configurar 2 cositas:
+
+1. Tu identificación
+2. El nombre por defecto de las branchs. [¿Por qué? En esta parte del documento lo explico, tocame, soy un link!](#la-branch-principal-se-llama-master-o-main)
+
+**La identificación se hace así:**
+
+```bash
+# Configurar el nombre del usuario
+git config --global user.name "Tu Nombre"
+
+# Configurar el correo electrónico del usuario
+git config --global user.email "tu@email.com"
+```
+
+Recorda cambiar el nombre y el email segun tus datos
+
+**El nombre por defecto de las branchs se hace así**
+
+```bash
+git config --global init.defaultBranch main
+```
+
 <!-- Links -->
-
-```
-
-```
