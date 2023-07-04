@@ -30,7 +30,7 @@ Git utiliza un repositorio para almacenar toda la información relacionada con t
 Hay varias razones:
 
 1. 😉 | Confia en mí, es una buena idea.
-2. 👮‍♂️ | Es un estandar de facto en la industria, si no sabes Git, estas practicamente obligado a aprender Git.
+2. 👮 | Es un estandar de facto en la industria, si no sabes Git, estas practicamente obligado a aprender Git.
 3. 📶 | Te ayuda en la organización de tus proyectos, y te evita **horrores** como tenes archivos al estilo
    `lectorJSON_v1.js`, `lectorJSON_v2.js`, `lectorJSON_final.js`, `lectorJSON_final_final_definitivo.js`, `lectorJSON_este_si_que_anda.js`.
    Con Git, podés hacer versiones de tu código que realmente tengan sentido.
