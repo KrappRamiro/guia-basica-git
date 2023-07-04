@@ -486,6 +486,9 @@ El archivo .gitignore se coloca en la raíz del repositorio o en los directorios
 
 Es importante tener en cuenta que el archivo .gitignore solo afecta a los archivos que aún no han sido rastreados por Git. Si ya has agregado un archivo al repositorio antes de agregarlo al archivo .gitignore, deberás eliminarlo explícitamente del repositorio para que Git lo ignore en el futuro.
 
+> 💡 Github mantiene una lista de archivos .gitignore específicos para una gran variedad de proyectos y lenguajes, si querés tener un punto inicial para tu proyecto:
+> https://github.com/github/gitignore
+
 #### gitignore de ejemplo
 
 ```bash
