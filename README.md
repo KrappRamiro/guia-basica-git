@@ -298,7 +298,7 @@ Como en ese commit quería agregar un favicon, agregue el archivo favicon.ico y 
    git status
    ```
 
-2. Hacemos nuestro commit con un mensaje descriptivo
+2. Ya teniendo nuestros archivos agregados con `git add`, hacemos nuestro commit con un mensaje descriptivo
 
    ```bash
    git commit -m "Añadir version inicial de index.html"
