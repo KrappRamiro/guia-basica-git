@@ -1,28 +1,28 @@
 # Módulo 1 | Básico
 
 - [Módulo 1 | Básico](#módulo-1--básico)
-	- [¿Qué es Git 🤔?](#qué-es-git-)
-	- [¿Por qué usar Git 🤷?](#por-qué-usar-git-)
-	- [¿Puedo evitar Git? 🛑](#puedo-evitar-git-)
-	- [Cheatsheet de Git 📰](#cheatsheet-de-git-)
-	- [Conceptos claves de Git 📖](#conceptos-claves-de-git-)
-		- [Commit](#commit)
-		- [Que es una branch](#que-es-una-branch)
-			- [Cómo funciona esto de las branchs?](#cómo-funciona-esto-de-las-branchs)
-			- [La branch principal se llama master o main?](#la-branch-principal-se-llama-master-o-main)
-	- [Mi primer proyecto en git 😇](#mi-primer-proyecto-en-git-)
-		- [Los archivos en Git 📂](#los-archivos-en-git-)
-		- [Mi primer commit ➡️](#mi-primer-commit-️)
-		- [Repositorios remotos y Github 🐙](#repositorios-remotos-y-github-)
-			- [⚠️ LEE ESTO, TE VA A SALVAR DOLORES DE CABEZA](#️-lee-esto-te-va-a-salvar-dolores-de-cabeza)
-	- [Otros conceptos IGUAL DE IMPORTANTES](#otros-conceptos-igual-de-importantes)
-		- [La carpeta .git/](#la-carpeta-git)
-		- [Cómo ignorar carpetas y archivos usando .gitignore](#cómo-ignorar-carpetas-y-archivos-usando-gitignore)
-			- [gitignore de ejemplo](#gitignore-de-ejemplo)
-	- [Guía de instalación](#guía-de-instalación)
-		- [Windows](#windows)
-		- [Linux](#linux)
-		- [Configuracion Inicial](#configuracion-inicial)
+  - [¿Qué es Git 🤔?](#qué-es-git-)
+  - [¿Por qué usar Git 🤷?](#por-qué-usar-git-)
+  - [¿Puedo evitar Git? 🛑](#puedo-evitar-git-)
+  - [Cheatsheet de Git 📰](#cheatsheet-de-git-)
+  - [Conceptos claves de Git 📖](#conceptos-claves-de-git-)
+    - [Commit](#commit)
+    - [Que es una branch](#que-es-una-branch)
+      - [Cómo funciona esto de las branchs?](#cómo-funciona-esto-de-las-branchs)
+      - [La branch principal se llama master o main?](#la-branch-principal-se-llama-master-o-main)
+  - [Mi primer proyecto en git 😇](#mi-primer-proyecto-en-git-)
+    - [Los archivos en Git 📂](#los-archivos-en-git-)
+    - [Mi primer commit ➡️](#mi-primer-commit-️)
+    - [Repositorios remotos y Github 🐙](#repositorios-remotos-y-github-)
+      - [⚠️ LEE ESTO, TE VA A SALVAR DOLORES DE CABEZA](#️-lee-esto-te-va-a-salvar-dolores-de-cabeza)
+  - [Otros conceptos IGUAL DE IMPORTANTES](#otros-conceptos-igual-de-importantes)
+    - [La carpeta .git/](#la-carpeta-git)
+    - [Cómo ignorar carpetas y archivos usando .gitignore](#cómo-ignorar-carpetas-y-archivos-usando-gitignore)
+      - [gitignore de ejemplo](#gitignore-de-ejemplo)
+  - [Guía de instalación](#guía-de-instalación)
+    - [Windows](#windows)
+    - [Linux](#linux)
+    - [Configuracion Inicial](#configuracion-inicial)
 
 Esta guía está hecha para que sea un paseo leerla, la idea no es que sea un manual técnico, sino que sigas **paso a paso**. Esta pensada para gente que recien empieza con git, y quiere entender, dentro de todo, qué es lo que está haciendo.
 
@@ -195,7 +195,7 @@ En resumen, un commit en Git es como tomar una fotografía de los cambios en tus
 
 Imagina que tienes un proyecto de desarrollo de software y quieres trabajar en una nueva funcionalidad sin afectar la versión principal del proyecto. Una branch, o rama, es como una línea de desarrollo independiente dentro de tu proyecto. **Es una forma de separar tu trabajo en diferentes áreas para realizar cambios y experimentar sin afectar la versión principal.**
 
-![git octopus](img/git_octopus.jpeg)
+![git octopus](img/modulo_1/git_octopus.jpeg)
 
 Lo voy a volver a repetir y en mayusculas, como para que se entienda:
 
@@ -383,13 +383,13 @@ Ahora vamos a hacer nuestro primer commit. [Qué es un commit?](#commit) Un comm
 
 Por ejemplo, en un proyecto personal mío, yo tuve estos commits:
 
-![commit examples](img/commit_examples.png)
+![commit examples](img/modulo_1/commit_examples.png)
 
 En cada commit, hice cambios en ciertas funcionalidades del proyecto. Por ejemplo, hay un commit que dice `added favicon`. En ese commit, lo único que hice fue añadir un favicon (si, un commit bastante idiota, pero me había olvidado del favicon)
 
 Como en ese commit quería agregar un favicon, agregue el archivo favicon.ico y modifique el .html para quje lo incluya:
 
-![Archivos cambiados](img/changes_files_example.png)
+![Archivos cambiados](img/modulo_1/changes_files_example.png)
 
 **Ahora que tenés un ejemplo de cómo es un commit, vamos a hacer nuestro primer commit, en donde commiteamos index.html:**
 
@@ -460,7 +460,7 @@ Cuando quieras subir tu repositorio local (en tu PC) a uno remoto, tenés que te
 - El repositorio local ya tiene que haber tenido su primer commit
 - El repositorio remoto tiene que estar completamente vacío, se tiene que ver así
 
-  ![repositorio vacio](img/repo_vacio.png)
+  ![repositorio vacio](img/modulo_1/repo_vacio.png)
 
 ## Otros conceptos IGUAL DE IMPORTANTES
 
