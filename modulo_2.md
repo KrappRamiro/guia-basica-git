@@ -3,21 +3,21 @@
 > Sección en progreso... 👷
 
 - [Módulo 2 | Avanzado](#módulo-2--avanzado)
-  - [Las 3 ubicaciones de tus archivos](#las-3-ubicaciones-de-tus-archivos)
-  - [Los 4 estados de los archivos](#los-4-estados-de-los-archivos)
-    - [TLDR](#tldr)
-    - [Explicación detallada](#explicación-detallada)
-  - [Repositorios remotos ☁️](#repositorios-remotos-️)
-    - [Ver tus remotos](#ver-tus-remotos)
-    - [Agregar remotos](#agregar-remotos)
-  - [Git Branching, merging, rebase y sufrimiento](#git-branching-merging-rebase-y-sufrimiento)
-    - [¿Qué es un puntero? ¿Qué es HEAD?](#qué-es-un-puntero-qué-es-head)
-    - [Branches in a nutshell](#branches-in-a-nutshell)
-        - [Entonces que es una branch?](#entonces-que-es-una-branch)
-      - [Creando una nueva branch](#creando-una-nueva-branch)
-      - [Switcheando branches](#switcheando-branches)
-    - [Branching y Merging básico, rebase](#branching-y-merging-básico-rebase)
-  - [Felicitaciones!](#felicitaciones)
+	- [Las 3 ubicaciones de tus archivos](#las-3-ubicaciones-de-tus-archivos)
+	- [Los 4 estados de los archivos](#los-4-estados-de-los-archivos)
+		- [TLDR](#tldr)
+		- [Explicación detallada](#explicación-detallada)
+	- [Repositorios remotos ☁️](#repositorios-remotos-️)
+		- [Ver tus remotos](#ver-tus-remotos)
+		- [Agregar remotos](#agregar-remotos)
+	- [Git Branching, merging, rebase y sufrimiento](#git-branching-merging-rebase-y-sufrimiento)
+		- [¿Qué es un puntero? ¿Qué es HEAD?](#qué-es-un-puntero-qué-es-head)
+		- [Branches in a nutshell](#branches-in-a-nutshell)
+				- [Entonces que es una branch?](#entonces-que-es-una-branch)
+			- [Creando una nueva branch](#creando-una-nueva-branch)
+			- [Switcheando branches](#switcheando-branches)
+		- [Branching y Merging básico, rebase](#branching-y-merging-básico-rebase)
+	- [Felicitaciones!](#felicitaciones)
 
 Bienvenido al módulo 2. Este es un módulo más teórico, pero **fundamental** si realmente querés aprender Git.
 
@@ -31,15 +31,15 @@ Leertelo te va a servir para **REALMENTE APRENDER** qué es lo que hiciste en el
 ## Las 3 ubicaciones de tus archivos
 
 Prestá atención ahora: **acá está lo principal que tenés que recordar sobre Git si querés que el resto de tu proceso de aprendizaje sea fluido**.
-Git tiene tres ubicaciones principales en los que tus archivos pueden encontrarse:
+Git tiene tres estados en los que tus archivos pueden encontrarse:
 
 1. modified (modificado)
 2. staged (preparado)
 3. comitted (confirmado)
 
-- Modified significa que marcaste el archivo pero aún no lo añadiste para ser parte del próximo commit.
-- Prepared significa que marcaste un archivo modified para que forme parte del siguiente commit.
-- Comitted significa que los cambios ya fueron agregados al repositorio.
+- Modified significa que modificaste el archivo pero aún no lo añadiste para ser parte del próximo commit.
+- Prepared significa que añadiste un archivo para que forme parte del siguiente commit (`git add`).
+- Comitted significa que los cambios ya fueron agregados al repositorio (`git commit`).
 
 Esto nos lleva a las tres secciones principales de un proyecto de Git:
 
