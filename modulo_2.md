@@ -11,7 +11,7 @@
 	- [Repositorios remotos ☁️](#repositorios-remotos-️)
 		- [Ver tus remotos](#ver-tus-remotos)
 		- [Agregar remotos](#agregar-remotos)
-	- [Git Branching, merging, rebase y sufrimiento](#git-branching-merging-rebase-y-sufrimiento)
+	- [Git Commit, Branch, Merge y Rebase por dentro (con sufrimiento incluido)](#git-commit-branch-merge-y-rebase-por-dentro-con-sufrimiento-incluido)
 		- [¿Qué es un puntero? ¿Qué es HEAD?](#qué-es-un-puntero-qué-es-head)
 		- [Branches in a nutshell](#branches-in-a-nutshell)
 				- [Entonces que es una branch?](#entonces-que-es-una-branch)
@@ -148,7 +148,7 @@ github  git@github.com:KrappRamiro/guia-basica-git.git (push)
 
 ### Agregar remotos
 
-## Git Branching, merging, rebase y sufrimiento
+## Git Commit, Branch, Merge y Rebase por dentro (con sufrimiento incluido)
 
 > Vas a leer el título de esta sección y me vas a preguntar: ¿Esto no lo vimos antes?
 > Si, esto lo vimos antes, pero ahora **lo vamos a ver en serio 🔥**. Anda a buscar mucho café ☕ que lo vas a necesitar.
@@ -210,7 +210,7 @@ flowchart LR
 
 ```
 
-> :warning: Advertencia: A partir de aca las cosas se empiezan a completar, no te preocupes si lo ves dificil. Es que **es dificil**, por eso le ponemos grafiquitos :smile:
+> :warning: Advertencia: A partir de aca las cosas se empiezan a complicar 🔥, no te preocupes si lo ves dificil. Es que **es dificil**, por eso le ponemos ✨grafiquitos✨ uwu
 
 Para visualizar esto, asumamos que tenes un directorio con 3 archivos, y los stageas y commiteas.
 Stagear los archivos ejecuta las siguientes acciones por cada archivo:
