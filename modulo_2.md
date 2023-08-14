@@ -4,9 +4,10 @@
 
 - [Módulo 2 | Avanzado](#módulo-2--avanzado)
 	- [Las 3 ubicaciones de tus archivos](#las-3-ubicaciones-de-tus-archivos)
-	- [Los 4 estados de los archivos](#los-4-estados-de-los-archivos)
+	- [Los 4 estados de tus archivos y el ciclo de vida del estado](#los-4-estados-de-tus-archivos-y-el-ciclo-de-vida-del-estado)
 		- [TLDR](#tldr)
 		- [Explicación detallada](#explicación-detallada)
+	- [Diferencia entre las 3 ubicaciones y los 4 estados](#diferencia-entre-las-3-ubicaciones-y-los-4-estados)
 	- [Repositorios remotos ☁️](#repositorios-remotos-️)
 		- [Ver tus remotos](#ver-tus-remotos)
 		- [Agregar remotos](#agregar-remotos)
@@ -41,7 +42,7 @@ Git tiene tres estados en los que tus archivos pueden encontrarse:
 - Prepared significa que añadiste un archivo para que forme parte del siguiente commit (`git add`).
 - Comitted significa que los cambios ya fueron agregados al repositorio (`git commit`).
 
-Esto nos lleva a las tres secciones principales de un proyecto de Git:
+En base a estos estados, Git tiene tres ubicaciones en las que guardar estos archivos dentro de un proyecto en Git:
 
 - el working tree / working directory (árbol de trabajo)
 - el staging area (área de preparación)
@@ -73,11 +74,13 @@ El flujo de trabajo básico de Git es más o menos así:
 
 - Y si ha sido modificado desde que se comitteó pero no se ha stageado, se considera modified.
 
-## Los 4 estados de los archivos
+## Los 4 estados de tus archivos y el ciclo de vida del estado
 
 ### TLDR
 
-Git categoriza los archivos en 4 estados posibles (los cuales pueden variar)
+Los archivos en Git **tienen un ciclo de vida**, y Git categoriza los archivos en 4 estados posibles **segun en que paso esten de este ciclo**.
+
+![cuatro estados](img/modulo_2/four_status.png)
 
 - **Untracked:** Git no está haciendo seguimiento de este archivo (jamás se lo agregó usando `git add`!).
 - **Unmodified:** El archivo no fué modificado desde la última vez que se agregó al staging area (o sea, es igual a la última vez que le hiciste `git add`) **y fue comitteado, SI O SI**.
@@ -96,7 +99,12 @@ Los archivos untrackeados son todo lo demás: cualquier archivo que no estuvo en
 A medida que editas archivos, Git los ve como modified, porque los cambiaste desde tu último commit.
 A medida que vas trabajando, vas a ir seleccionando selectivamente estos archivos modificados, los vas a stagear, y los vas a commitear, _y el ciclo se repite... _
 
-![cuatro estados](img/modulo_2/four_status.png)
+
+## Diferencia entre las 3 ubicaciones y los 4 estados
+
+**Modified, Staged y Committed:** Estados en los que tus archivos pueden estar **cuando ya estan siendo rastreados por git**, cada uno tiene su "carpetita". _Esta categoria de estados habla de como se gestionan los archivos que ya fueron añadidos a Git_
+
+**Untracked, Tracked, Modified, and Staged:** Estados por los que pasan tus archivos antes de ser rastreados y comprometidos, **es un ciclo de vida**.  _Esta categoria de estados habla del ciclo de vida de tus archivos cuando usas Git_
 
 ## Repositorios remotos ☁️
 
