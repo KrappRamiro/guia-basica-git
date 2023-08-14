@@ -39,7 +39,7 @@ Git tiene tres estados en los que tus archivos pueden encontrarse:
 3. comitted (confirmado)
 
 - Modified significa que modificaste el archivo pero aún no lo añadiste para ser parte del próximo commit.
-- Prepared significa que añadiste un archivo para que forme parte del siguiente commit (`git add`).
+- Staged significa que añadiste un archivo para que forme parte del siguiente commit (`git add`).
 - Comitted significa que los cambios ya fueron agregados al repositorio (`git commit`).
 
 En base a estos estados, Git tiene tres ubicaciones en las que guardar estos archivos dentro de un proyecto en Git:
