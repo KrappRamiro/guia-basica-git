@@ -4,6 +4,7 @@
 
 - [Módulo 2 | Avanzado](#módulo-2--avanzado)
 	- [Las 3 ubicaciones de tus archivos](#las-3-ubicaciones-de-tus-archivos)
+		- [Te costó entenderlo?](#te-costó-entenderlo)
 	- [Los 4 estados de tus archivos y el ciclo de vida del estado](#los-4-estados-de-tus-archivos-y-el-ciclo-de-vida-del-estado)
 		- [TLDR](#tldr)
 		- [Explicación detallada](#explicación-detallada)
@@ -73,6 +74,10 @@ El flujo de trabajo básico de Git es más o menos así:
 - Si ha sido modificada y se ha agregado al staging area, ese archivo se considera como staged.
 
 - Y si ha sido modificado desde que se comitteó pero no se ha stageado, se considera modified.
+
+### Te costó entenderlo?
+
+[Aca tenés una publicación de Stack Overflow que podes leer](https://stackoverflow.com/a/61038693/15965186)
 
 ## Los 4 estados de tus archivos y el ciclo de vida del estado
 
